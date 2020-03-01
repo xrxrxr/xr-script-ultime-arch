@@ -1,3 +1,4 @@
 #!/bin/bash
-pamac build ulauncher -y
+yes | sudo pacman -S pacaur
+yes | pacaur -S --noedit  ulauncher
 

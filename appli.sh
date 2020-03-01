@@ -1,18 +1,19 @@
 #!/bin/bash
-sudo pacman -S etcher -y
-sudo pacman -S neofetch -y
-sudo pacman -S firefox-developer-edition-i18n-fr -y
-sudo pacman -S chromium-browser -y
-sudo pacman -S transmission-gtk -y
-sudo pacman -S git -y
-sudo pacman -S gnome-mpv -y
-sudo pacman -S gimp -y
-sudo pacman -S bleachbit -y
-sudo pacman -S gnome-multiwriter -y
-sudo pacman -S youtube-dl -y
-sudo pacman -S moc -y
-sudo pacman -Syu pamac-cli
-pamac build rambox -y
+yes | sudo pacman -S etcher 
+yes | sudo pacman -S neofetch 
+yes | sudo pacman -S firefox-developer-edition-i18n-fr 
+yes | sudo pacman -S chromium-browser 
+yes | sudo pacman -S transmission-gtk 
+yes | sudo pacman -S git 
+yes | sudo pacman -S mpv 
+yes | sudo pacman -S celluloid
+yes | sudo pacman -S gimp 
+yes | sudo pacman -S bleachbit 
+yes | sudo pacman -S gnome-multiwriter 
+yes | sudo pacman -S youtube-dl 
+yes | sudo pacman -S moc 
+yes | sudo pacman -S pacaur
+yes | pacaur -S --noedit  rambox 
 
 
 
