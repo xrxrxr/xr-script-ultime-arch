@@ -18,7 +18,7 @@ case "$answer" in
     2) sh ulauncherxr.sh ;;
     3) sh atomxr.sh ;;
     4) sh appli.sh ;;
-    5) sh appli.sh & sh ulauncherxr.sh & atomxr.sh & zsh.sh ;;
+    5) sh appli.sh & sh ulauncherxr.sh & sh atomxr.sh & sh zsh.sh ;;
     q) exit ;;
    esac
    echo  "appuie sur entrée pour revenir au menu"
