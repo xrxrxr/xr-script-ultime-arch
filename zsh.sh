@@ -1,8 +1,8 @@
 #!/bin/bash
-yes | sudo pacman -S zsh 
-yes | sudo pacman -S vim 
-yes | sudo pacman -S powerline 
-yes | sudo pacman -S curl 
+sudo pacman -S zsh --noconfirm
+sudo pacman -S vim --noconfirm
+sudo pacman -S powerline --noconfirm
+sudo pacman -S curl --noconfirm
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp .vimrc  ~/.vimrc
 sudo chsh -s /usr/bin/zsh

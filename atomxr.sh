@@ -1,5 +1,5 @@
 #!/bin/bash
-yes | sudo pacman -S atom 
+sudo pacman -S atom --noconfirm
 apm install atom-beautify
 apm install --production file-icons
 apm install nyan-indent

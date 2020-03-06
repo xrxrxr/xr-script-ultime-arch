@@ -1,4 +1,4 @@
 #!/bin/bash
-yes | sudo pacman -S pacaur
-yes | pacaur -S --noedit  ulauncher
+sudo pacman -S pacaur --noconfirm
+pacaur -S --noedit  ulauncher --noconfirm
 
